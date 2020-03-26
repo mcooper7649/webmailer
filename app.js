@@ -35,7 +35,7 @@ app.post("/", function(req, res){
     const url = 'https://us19.api.mailchimp.com/3.0/lists/1dbb72578e'
     const options = {
         method: "POST",
-        auth: "mike1:8530bd46221a52810e72641e4c45d74d-us19"
+        auth: "mike1:6c92e8cf40fce60cdcaaede5d606ab22-us19"
     }
     const request = https.request(url, options, function(response){
 
@@ -67,7 +67,6 @@ app.listen(process.env.PORT || 3000, function(){   //ADDS HEROKU PORT OR LOCAL
 
 
 
-// api key
-// 8530bd46221a52810e72641e4c45d74d-us19
+
 
 // List id 1dbb72578e 

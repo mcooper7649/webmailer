@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mcooper7649/express_projects/issues"
   },
-  "homepage": "https://github.com/mcooper7649/express_projects#readme"
+  "homepage": "https://github.com/mcooper7649/express_projects#readme",
+  "engines": {
+    "node": "0.8",
+    "npm": "1.2.x"
+  }
 }
