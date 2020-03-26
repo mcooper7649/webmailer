@@ -23,5 +23,8 @@
   "engines": {
     "node": "0.8",
     "npm": "1.2.x"
+  },
+  "dependencies": {
+    "npm": "^6.14.4"
   }
 }
